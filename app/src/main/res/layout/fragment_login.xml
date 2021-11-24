@@ -62,14 +62,15 @@
         app:layout_constraintTop_toBottomOf="@+id/login_name_et" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login_btn"
         android:layout_width="360dp"
         android:layout_height="60dp"
         android:layout_marginTop="70dp"
         android:background="@drawable/button_border"
-        android:fontFamily="@font/font_roboto_regular"
+        android:fontFamily="@font/font_roboto_bold"
         android:text="@string/login"
-        android:textSize="18sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_pass_et" />
