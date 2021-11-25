@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rubbiish_Android">
         <activity
+            android:name=".ui.AddPostUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.AddPostArtistActivity"
             android:exported="false" />
         <activity
