@@ -24,6 +24,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/font_roboto_bold"
+                android:textColor="@color/black"
                 android:text="@string/match"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -41,6 +42,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
                 android:fontFamily="@font/font_roboto_bold"
+                android:textColor="@color/black"
                 android:text="@string/start_match"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -52,6 +54,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/font_roboto_bold"
+                android:textColor="@color/black"
                 android:text="@string/write_match"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -114,6 +117,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/font_roboto_bold"
+            android:textColor="@color/black"
             android:text="@string/match_user_name"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -125,6 +129,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="25dp"
             android:fontFamily="@font/font_roboto_bold"
+            android:textColor="@color/black"
             android:text="@string/match_user_location"
             android:textSize="10sp" />
 

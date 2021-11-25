@@ -4,19 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/edittext_border.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_match_photo_add.xml" value="0.36018518518518516" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_minus.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_photoadd.xml" value="0.36018518518518516" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_second.xml" value="0.35185185185185186" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_trash.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_vector.xml" value="0.36018518518518516" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/post_edittext_border.xml" value="0.35185185185185186" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/trash_liter_border.xml" value="0.35185185185185186" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/visual_bottom_shadow.xml" value="0.35185185185185186" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/activity_add_post_artist.xml" value="0.26811594202898553" />
+        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/activity_add_post_artist.xml" value="0.33" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/activity_add_post_user.xml" value="0.26811594202898553" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/activity_main.xml" value="0.26811594202898553" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/activity_sign.xml" value="0.38645833333333335" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_certify.xml" value="0.26811594202898553" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_login.xml" value="0.26811594202898553" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_match.xml" value="0.26811594202898553" />
+        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_match.xml" value="0.25" />
+        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_match_write.xml" value="0.22" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_viewpost.xml" value="0.26811594202898553" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_visualize.xml" value="0.1879432624113475" />
         <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/item_match.xml" value="0.1879432624113475" />
