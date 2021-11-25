@@ -49,6 +49,10 @@
     <string name="visual_one_liter">1L</string>
     <string name="visual_five_liter">5L</string>
     <string name="visual_ten_liter">10L</string>
+    <string name="setAmount_fail_title">쓰레기를 배출하지 못했어요.</string>
+    <string name="setAmount_fail_content">다시 배출해주세요.</string>
+    <string name="getAmount_fail_title">쓰레기 배출량을 가져오지 못했어요.</string>
+    <string name="getAmount_fail_content">다시 시도해주세요.</string>
 
     <string name="match">커넥 서비스</string>
     <string name="write_match">글쓰기</string>
@@ -65,9 +69,6 @@
     <string name="match_write_location">ex) 서울특별시 구로구</string>
     <string name="match_write_url">카카오톡 ID &amp; 오픈채팅 URL</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="post">포스트</string>
     <string name="junkart_challenge">정크 아트 챌린지</string>
