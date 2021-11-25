@@ -31,7 +31,7 @@ class RegisterFragment : Fragment() {
         dialogUtil = DialogUtil(requireActivity())
         viewModel.registerLiveData.observe(viewLifecycleOwner, {
             if(it.status == 200){
-                if(it.data.emailExists && it.data.validNickname && it.data.validPassword){
+                if(!it.data.emailExists && it.data.validNickname && it.data.validPassword){
                     dialogUtil.cookieBarBuilder(
                         R.string.register_success_title,
                         null,
