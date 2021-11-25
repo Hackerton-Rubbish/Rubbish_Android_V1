@@ -7,7 +7,7 @@ import com.example.rubbiish_android.network.ApiProvider
 import com.example.rubbiish_android.network.SafeApiRequest
 import retrofit2.Response
 
-class GarbageRepositoryImpl : GarbageRepository, SafeApiRequest(){
+class VisualizeRepositoryImpl : ViusalizeRepository, SafeApiRequest(){
     override suspend fun setGarbage(
         header: String,
         body: SetGarbageRequest
