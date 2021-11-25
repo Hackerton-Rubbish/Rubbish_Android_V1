@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         bnv_main.setOnItemSelectedListener { item ->
             when(item.itemId){
                 R.id.first -> replace(VisualizeFragment())
+                R.id.third -> replace(MatchFragment())
                 else -> false
             }
             true

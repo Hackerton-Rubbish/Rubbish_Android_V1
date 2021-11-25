@@ -47,6 +47,7 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.ViewHolder> 
         MatchData matchData = matchList.get(position);
         holder.itemName.setText(matchData.getMatchItemName());
         holder.itemCnt.setText("재고: "+String.valueOf(matchData.getMatchItemCnt())+"개");
+        holder.itemImage.setImageResource(matchData.getMatchItemImage());
     }
 
     @Override
