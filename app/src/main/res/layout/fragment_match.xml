@@ -61,6 +61,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/card_stack_view_wrap"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,30 +70,39 @@
         android:clipChildren="false">
 
         <com.yuyakaido.android.cardstackview.CardStackView
-            android:id="@+id/cardStackView"
+            android:id="@+id/card_stack_view"
             android:layout_width="match_parent"
-            android:layout_height="470dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="100dp"
             android:layout_marginRight="10dp"
+            android:layout_marginBottom="125dp"
             android:radius="10dp">
 
         </com.yuyakaido.android.cardstackview.CardStackView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <ImageButton
             android:id="@+id/match_reload_btn"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            android:layout_below="@id/cardStackView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
             android:background="@null"
             android:scaleType="fitCenter"
             android:src="@drawable/ic_button_reload" />
+
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent">

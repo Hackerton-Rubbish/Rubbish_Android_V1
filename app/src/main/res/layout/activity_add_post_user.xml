@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddPostUserActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/certify_prev_ib"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@null"
+            android:src="@drawable/ic_arrow_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/post"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/challenge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="25dp"
+        android:fontFamily="@font/font_roboto_bold"
+        android:text="@string/junkart_challenge"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+    <View
+        android:id="@+id/thin1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="388dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="13dp"
+        android:background="@color/primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+    <View
+        android:id="@+id/thin2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="13dp"
+        android:background="@color/primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/post_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/font_roboto_bold"
+        android:text="@string/write_post"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/challenge"/>
+
+    <ImageButton
+        android:id="@+id/btn_addphoto"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_write"
+        android:focusableInTouchMode="true"
+        android:src="@drawable/ic_photoadd" />
+
+    <TextView
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font_roboto_bold"
+        android:text="@string/post"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_addphoto"/>
+
+    <EditText
+        android:id="@+id/title_write"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:paddingStart="10dp"
+        android:hint="@string/write_title"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_roboto_bold"
+        android:background="@drawable/post_edittext_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post"/>
+
+    <EditText
+        android:id="@+id/text_write"
+        android:layout_width="330dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:hint="@string/write_text"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_roboto_bold"
+        android:background="@drawable/post_edittext_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_write"/>
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font_roboto_bold"
+        android:text="@string/original_artist"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_write"/>
+
+    <EditText
+        android:id="@+id/artist_name"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:enabled="false"
+        android:layout_marginTop="0dp"
+        android:paddingStart="10dp"
+        android:hint="@string/k_artist"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_roboto_bold"
+        android:background="@drawable/post_edittext_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/artist"/>
+
+    <Button
+        android:id="@+id/add_post"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_border"
+        android:text="@string/upload"
+        android:fontFamily="@font/font_roboto_bold"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
