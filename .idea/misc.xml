@@ -3,21 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/button_border.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/card_stack_border.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/certify_code_border.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/edittext_border.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_arrow_1.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_button_reload.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/drawable/line.xml" value="0.40260416666666665" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/activity_main.xml" value="0.38645833333333335" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/activity_sign.xml" value="0.38645833333333335" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_certify.xml" value="0.33" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_login.xml" value="0.27717391304347827" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_match.xml" value="0.33" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/fragment_register.xml" value="0.38645833333333335" />
-        <entry key="..\:/Users/dltjd/Desktop/programming/project/hackathon/2021/Rubbish_Android_V1/app/src/main/res/layout/item_match.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/drawable/button_border.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/drawable/edittext_border.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/drawable/post_edittext_border.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/activity_add_post.xml" value="0.33" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/activity_addpost.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/activity_sign.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/fragment_add_post.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/fragment_certify.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/fragment_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/fragment_register.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/fragment_view_post.xml" value="0.3515625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/layout/fragment_viewpost.xml" value="0.3515625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Rubbish_Android_V1/app/src/main/res/menu/navi_menu.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>
