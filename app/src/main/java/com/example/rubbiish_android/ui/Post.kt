@@ -1,7 +1,9 @@
 package com.example.rubbiish_android.ui
 
+import java.io.File
+
 data class Post(
-    val image:String,
     val title:String,
-    val text:String
+    val content:String,
+    val image:File
 )

@@ -1,11 +1,16 @@
 package com.example.rubbiish_android.ui
 
-import retrofit2.http.POST
-import retrofit2.http.GET
-import retrofit2.http.Multipart
+import retrofit2.Call
+import retrofit2.http.*
+import java.io.File
 
 interface Network {
     //이미지 보내기
     @Multipart
-    @GET("/")
+    @POST("/v1/post/junk-art/")
+    fun post_Request(
+        @Path("title") title:String,
+        @Path("content") content:String,
+        @Part("image") image:File
+    ):Call<Post>
 }
