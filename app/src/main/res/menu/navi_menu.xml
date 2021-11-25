@@ -5,19 +5,19 @@
         app:showAsAction="ifRoom"
         android:enabled="true"
         android:title=""
-        android:icon="@drawable/first" />
+        android:icon="@drawable/ic_first" />
     <item android:id="@+id/second"
         app:showAsAction="ifRoom"
         android:title=""
-        android:icon="@drawable/second" />
+        android:icon="@drawable/ic_second" />
     <item android:id="@+id/third"
         app:showAsAction="ifRoom"
         android:enabled="true"
         android:title=""
-        android:icon="@drawable/third" />
+        android:icon="@drawable/ic_third" />
     <item android:id="@+id/four"
         app:showAsAction="ifRoom"
         android:enabled="true"
-        android:icon="@drawable/fourth"
+        android:icon="@drawable/ic_fourth"
         android:title="" />
 </menu>
