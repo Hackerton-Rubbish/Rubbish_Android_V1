@@ -92,7 +92,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/post_write"
         android:focusableInTouchMode="true"
-        android:src="@drawable/photoadd" />
+        android:src="@drawable/ic_photoadd" />
 
         <TextView
             android:id="@+id/post"
