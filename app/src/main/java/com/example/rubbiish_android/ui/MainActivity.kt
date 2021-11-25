@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setFragment() {
         val transaction = supportFragmentManager.beginTransaction()
-            .add(R.id.fl_container, Fragment())
+            .add(R.id.fl_container, ViewPostFragment())
         transaction.commit()
     }
 }

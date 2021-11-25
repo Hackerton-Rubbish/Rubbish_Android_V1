@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.rubbiish_android.R
 
-class ViewPostActivity : Fragment() {
+class ViewPostFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_view_post_activity, container, false)
+        return inflater.inflate(R.layout.fragment_view_post, container, false)
     }
 }
