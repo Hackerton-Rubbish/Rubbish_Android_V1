@@ -83,6 +83,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/challenge"/>
 
+    <ImageView
+        android:id="@+id/added_photo"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_write"/>
+
     <ImageButton
         android:id="@+id/btn_addphoto"
         android:layout_width="110dp"
