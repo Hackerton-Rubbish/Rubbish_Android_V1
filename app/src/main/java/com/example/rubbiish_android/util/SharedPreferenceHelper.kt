@@ -23,6 +23,14 @@ class SharedPreferenceHelper {
             editor.apply()
         }
 
+    var name: String?
+        get() = prefs.getString("name", null)
+        set(value){
+            val editor = prefs.edit()
+            editor.putString("name", value)
+            editor.apply()
+        }
+
     companion object {
         private var sharedPreferencesHelper: SharedPreferenceHelper? = null
 
