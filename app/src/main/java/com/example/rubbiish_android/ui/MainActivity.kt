@@ -45,4 +45,10 @@ class MainActivity : AppCompatActivity() {
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.fl_container, fragment).commit()
     }
+
+    private fun setFragment() {
+        val transaction = supportFragmentManager.beginTransaction()
+            .add(R.id.fl_container, ViewPostFragment())
+        transaction.commit()
+    }
 }
