@@ -27,10 +27,14 @@ class MainActivity : AppCompatActivity() {
             R.color.primary
         )
 
+        val fragmentTransaction = supportFragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.fl_container, VisualizeFragment()).commit()
+
         bnv_main.setOnItemSelectedListener { item ->
             when(item.itemId){
                 R.id.first -> replace(VisualizeFragment())
                 R.id.third -> replace(MatchFragment())
+                R.id.four -> replace(ProfileFragment())
                 else -> false
             }
             true

@@ -9,6 +9,7 @@ import androidx.lifecycle.MutableLiveData
 import com.example.rubbiish_android.R
 import com.example.rubbiish_android.data.sign.SetGarbageRequest
 import com.example.rubbiish_android.util.DialogUtil
+import com.example.rubbiish_android.util.SharedPreferenceHelper
 import com.example.rubbiish_android.viewmodel.VisualizeViewModel
 import kotlinx.android.synthetic.main.fragment_visualize.*
 import java.text.SimpleDateFormat
@@ -16,6 +17,7 @@ import java.util.*
 
 class VisualizeFragment : Fragment() {
 
+    private val prefs = SharedPreferenceHelper.getInstance()
     private val literLiveData: MutableLiveData<Int> = MutableLiveData()
     private val viewModel = VisualizeViewModel()
     private var liter = 0
@@ -48,6 +50,7 @@ class VisualizeFragment : Fragment() {
 //                        wave_lottie.scrollY = (it.data.amount * 10)
 //                    else
 //                        wave_lottie.scrollY = 600
+                    prefs.liter = it.data.amount.toString()
                     setAmount(it.data.amount)
                 }
                 else -> {
@@ -62,7 +65,10 @@ class VisualizeFragment : Fragment() {
         })
         viewModel.getAmountLiveData.observe(viewLifecycleOwner, {
             when(it.status){
-                200 -> setAmount(it.data.amount)
+                200 ->{
+                    prefs.liter = it.data.amount.toString()
+                    setAmount(it.data.amount)
+                }
                 else -> {
                     dialogUtil.cookieBarBuilder(
                         R.string.getAmount_fail_title,

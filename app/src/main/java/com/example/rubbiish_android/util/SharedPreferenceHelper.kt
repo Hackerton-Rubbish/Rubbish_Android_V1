@@ -31,6 +31,14 @@ class SharedPreferenceHelper {
             editor.apply()
         }
 
+    var liter: String?
+        get() = prefs.getString("liter", null)
+        set(value){
+            val editor = prefs.edit()
+            editor.putString("liter", value)
+            editor.apply()
+        }
+
     companion object {
         private var sharedPreferencesHelper: SharedPreferenceHelper? = null
 
