@@ -62,6 +62,12 @@ dependencies {
     //lottie
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+    //cookieBar2
+    implementation 'org.aviran.cookiebar2:cookiebar2:1.1.4'
+    //rx retrofit
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+    //rxjava
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.1'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

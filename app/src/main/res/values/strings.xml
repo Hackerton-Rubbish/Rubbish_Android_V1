@@ -16,6 +16,34 @@
     <string name="register_nick_name_hint">닉네임을 입력해주세요</string>
     <string name="register_pass_hint">비밀번호를 입력해주세요 (숫자 6자리)</string>
     <string name="start">시작하기</string>
+    
+    <string name="login_error_title">로그인 실패</string>
+    <string name="login_error_content">닉네임 또는 비밀번호를 입력해주세요.</string>
+
+    <string name="send_email_error_title">인증 코드 전송 실패</string>
+    <string name="send_email_error_content">이메일을 입력해주세요.</string>
+    <string name="send_email_success_title">인증 코드가 발송되었습니다.</string>
+    <string name="send_email_success_content">이메일을 확인해주세요.</string>
+    <string name="send_email_fail_content">이미 사용 중인 이메일 입니다.</string>
+    <string name="certify_success_title">인증되었습니다.</string>
+    <string name="certify_success_content">회원가입을 진행해주세요.</string>
+    <string name="certify_fail_title">인증 실패</string>
+    <string name="certify_fail_content">이메일을 다시 확인해주세요.</string>
+    <string name="certify_code_wrong_title">인증번호가 일치하지 않습니다.</string>
+    <string name="certify_code_wrong_content">인증번호를 다시 확인해주세요.</string>
+    <string name="register_success_title">회원가입에 성공하였습니다.</string>
+    <string name="register_success_content">로그인 후 서비스를 이용해주세요.</string>
+    <string name="register_empty_error_title">회원가입 실패</string>
+    <string name="register_empty_error_content">빈칸을 채워주세요.</string>
+    <string name="register_not_exist_error_title">회원가입 실패</string>
+    <string name="register_not_exist_error_content">인증되지 않거나 존재하지 않는 이메일입니다.</string>
+    <string name="register_406_error_title">회원가입 실패</string>
+    <string name="register_406_error_content">사용 중인 닉네임 혹은 잘못된 비밀번호 형식</string>
+    <string name="register_200_fail_content">이메일, 닉네임, 비밀번호를 확인해주세요.</string>
+    <string name="login_success_title">로그인에 성공하였습니다.</string>
+    <string name="login_success_content">환영합니다!</string>
+    <string name="login_fail_title">로그인에 실패했습니다.</string>
+    <string name="login_fail_content">닉네임 또는 비밀번호를 확인해주세요.</string>
 
     <string name="throw_trash">배출하기</string>
     <string name="visual_one_liter">1L</string>
