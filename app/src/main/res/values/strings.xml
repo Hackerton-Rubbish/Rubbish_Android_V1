@@ -39,4 +39,5 @@
     <string name="register_not_exist_error_content">인증되지 않거나 존재하지 않는 이메일입니다.</string>
     <string name="register_406_error_title">회원가입 실패</string>
     <string name="register_406_error_content">사용 중인 닉네임 혹은 잘못된 비밀번호 형식</string>
+    <string name="register_200_fail_content">이메일, 닉네임, 비밀번호를 확인해주세요.</string>
 </resources>
