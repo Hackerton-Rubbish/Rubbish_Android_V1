@@ -1,7 +1,7 @@
 package com.example.rubbiish_android.data.sign
 
 data class GetGarbageResponse(
-    val status: String,
+    val status: Int,
     val detail: String,
     val data: Data
 ){

@@ -75,7 +75,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="523dp"
             android:focusableInTouchMode="true"
-            android:src="@drawable/empty_heart"/>
+            android:src="@drawable/ic_empty_heart"/>
 
         <Button
             android:id="@+id/start_challenge"
