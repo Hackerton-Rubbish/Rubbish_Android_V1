@@ -34,7 +34,7 @@ class LoginFragment : Fragment() {
         viewModel.loginLiveData.observe(viewLifecycleOwner, {
             when(it.status){
                 200 -> {
-                    prefs.access_token = it.data.token
+                    prefs.access_token = "Token ${it.data.token}"
                     prefs.name = login_name_et.text.toString()
                     val intent = Intent(requireContext(), MainActivity::class.java)
                     requireActivity().startActivity(intent)
