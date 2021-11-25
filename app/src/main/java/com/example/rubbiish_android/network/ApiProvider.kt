@@ -13,6 +13,7 @@ object ApiProvider {
     private const val READ_TIME_OUT: Long = 15
     private var retrofitBuilder: Retrofit
     private var signApi: SignApi
+    private var visualizeApi: VisualizeApi
 
     private val okHttpClient: OkHttpClient = OkHttpClient().newBuilder().apply {
         addInterceptor(httpLoggingInterceptor)
@@ -33,7 +34,9 @@ object ApiProvider {
             .build()
 
         signApi = retrofitBuilder.create(SignApi::class.java)
+        visualizeApi = retrofitBuilder.create(VisualizeApi::class.java)
     }
 
     fun getApi() = signApi
+    fun getVisualApi() = visualizeApi
 }
