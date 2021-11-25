@@ -48,14 +48,15 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/write_match"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/font_roboto_bold"
-                android:textColor="@color/black"
                 android:text="@string/write_match"
+                android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold" />
 

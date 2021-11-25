@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.ViewPostActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/profile_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="10dp"
+            android:focusableInTouchMode="true"
+            android:src="@null"/>
+
+        <TextView
+            android:id="@+id/challenge_ing"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="130dp"
+            android:paddingStart="20dp"
+            android:text="@string/challenge_ing"
+            android:textSize="12sp"
+            android:fontFamily="@font/font_roboto_bold"
+            android:textStyle="bold"
+            android:background="#5D5FEF"/>
+
+        <ImageView
+            android:id="@+id/post_img"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="45dp"
+            android:src="@null"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="385dp"
+            android:paddingStart="15dp"
+            android:fontFamily="@font/font_roboto_bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@null"/>
+
+        <View
+            android:id="@+id/thin_post"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="425dp"
+            android:background="@color/primary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="426dp"
+            android:background="@color/white"
+            android:fontFamily="@font/font_roboto_regular"
+            android:textSize="12sp"
+            android:text="@null"/>
+
+        <ImageButton
+            android:id="@+id/heart"
+            android:layout_width="24dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="523dp"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/ic_empty_heart"/>
+
+        <Button
+            android:id="@+id/start_challenge"
+            android:layout_width="275dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="516dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/font_roboto_bold"
+            android:text="@string/start_challenge"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        
+    </androidx.recyclerview.widget.RecyclerView>
+    
+</androidx.core.widget.NestedScrollView>

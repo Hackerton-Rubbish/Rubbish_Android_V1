@@ -1,11 +1,11 @@
 package com.example.rubbiish_android.data.sign
 
-data class LoginResponse(
+data class GetGarbageResponse(
     val status: Int,
     val detail: String,
     val data: Data
 ){
     data class Data(
-        val token: String
+        val amount: Int
     )
 }

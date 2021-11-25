@@ -10,9 +10,11 @@ import kotlinx.coroutines.launch
 class SignViewModel : ViewModel() {
     private val signRepository = SignRepositoryImpl()
     private val _emailLiveData: MutableLiveData<EmailResponse> = MutableLiveData()
+    private val _certifyLiveData: MutableLiveData<CertifyResponse> = MutableLiveData()
     private val _registerLiveData: MutableLiveData<RegisterResponse> = MutableLiveData()
     private val _loginLiveData: MutableLiveData<LoginResponse> = MutableLiveData()
     val emailLiveData = _emailLiveData
+    val certifyLiveData = _certifyLiveData
     val registerLiveData = _registerLiveData
     val loginLiveData = _loginLiveData
 
@@ -29,7 +31,7 @@ class SignViewModel : ViewModel() {
         viewModelScope.launch {
             val response = signRepository.emailCertify(email, code)
             if(response.isSuccessful){
-                _emailLiveData.postValue(response.body())
+                _certifyLiveData.postValue(response.body())
             }
         }
     }

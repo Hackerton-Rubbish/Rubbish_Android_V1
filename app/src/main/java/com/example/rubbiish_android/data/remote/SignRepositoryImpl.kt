@@ -13,7 +13,7 @@ class SignRepositoryImpl : SignRepository, SafeApiRequest() {
     override suspend fun emailCertify(
         email: String,
         code: EmailCertifyRequest
-    ): Response<EmailResponse> {
+    ): Response<CertifyResponse> {
         return safeApiCall { ApiProvider.getApi().emailCertify(email, code) }
     }
 
