@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.matchFragment">
+    tools:context=".ui.MatchFragment">
 
     <RelativeLayout
         android:id="@+id/toolbar"
@@ -25,9 +25,8 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/font_roboto_bold"
                 android:text="@string/match"
-                android:textColor="@color/black"
                 android:textSize="14sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -43,7 +42,6 @@
                 android:layout_marginLeft="20dp"
                 android:fontFamily="@font/font_roboto_bold"
                 android:text="@string/start_match"
-                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -55,7 +53,6 @@
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/font_roboto_bold"
                 android:text="@string/write_match"
-                android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
@@ -64,26 +61,26 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/toolbar">
+        android:clipChildren="false">
 
         <com.yuyakaido.android.cardstackview.CardStackView
             android:id="@+id/cardStackView"
             android:layout_width="match_parent"
             android:layout_height="470dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="75dp"
             android:layout_marginRight="10dp"
-            android:background="@drawable/card_stack_border"
             android:radius="10dp">
 
         </com.yuyakaido.android.cardstackview.CardStackView>
 
         <ImageButton
+            android:id="@+id/match_reload_btn"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_below="@id/cardStackView"
@@ -91,17 +88,14 @@
             android:layout_marginTop="20dp"
             android:background="@null"
             android:scaleType="fitCenter"
-            android:src="@drawable/button_reload" />
+            android:src="@drawable/ic_button_reload" />
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_weight="0">
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <TextView
             android:id="@+id/match_user_nickname"
@@ -111,7 +105,6 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/font_roboto_bold"
             android:text="@string/match_user_name"
-            android:textColor="@color/black"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -123,7 +116,6 @@
             android:layout_marginTop="25dp"
             android:fontFamily="@font/font_roboto_bold"
             android:text="@string/match_user_location"
-            android:textColor="@color/black"
             android:textSize="10sp" />
 
         <Button
